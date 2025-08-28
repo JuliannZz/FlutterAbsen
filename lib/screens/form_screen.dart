@@ -31,9 +31,7 @@ class _FormScreenState extends State<FormScreen> {
   }
 
   void _resetForm() {
-    _namaController.clear();
-    _kelasController.clear();
-    _alasanController.clear();
+    _formKey.currentState!.reset();
   }
 
   @override
